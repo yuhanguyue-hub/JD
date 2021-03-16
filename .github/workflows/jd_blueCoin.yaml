@@ -6,7 +6,7 @@ name: 京小超领蓝币
 on:
     workflow_dispatch:
     schedule:
-        - cron: "5 16 * * *"
+        - cron: "5 0,2,4,6,8,10,12,14,16,18,20,22 * * *"
     watch:
         types: [started]
     repository_dispatch:
